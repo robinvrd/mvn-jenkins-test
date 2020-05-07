@@ -18,7 +18,7 @@ public class TestClassTest {
     @Test
     public final void testSum() {
         TestClass tc = new TestClass();
-        if (tc.sum(1,2) != 3) {
+        if (tc.sum(1,2) != 4) {
             fail("sum is not working");
         }
     }
